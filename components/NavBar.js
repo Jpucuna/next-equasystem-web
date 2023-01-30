@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import { Row } from "react-bootstrap";
 
 const NavBar = () => {
   return (
@@ -35,151 +36,72 @@ const NavBar = () => {
               <i className="material-icons" style={{ marginRight: 5 + "px" }}>
                 call
               </i>
-              <a href="tel:19419811147">+1 (941) 981-1147</a>
+              <a href="https://api.whatsapp.com/send?phone=593986206847">
+                +593 98620-6847
+              </a>
             </div>
             <div className="email" style={{ marginLeft: 10 + "px" }}>
               <i className="material-icons" style={{ marginRight: 5 + "px" }}>
                 mail
               </i>
-              <a href="mailto:info@QuickSilverSystems.com">
-                info@QuickSilverSystems.com
-              </a>
+              <a href="mailto:info@equasystems.com">info@equasystems.com</a>
             </div>
           </div>
 
-      <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Brand href="#home">
-                <img
-                  src="/EquaSystems.png"
-                  alt=""
-                  width="295rem"
-                  height="170rem"
-                />
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-
-
-          <nav
-            className="navbar navbar-expand-lg navbar-light bg-light"
+          <Navbar
+            bg="light"
+            expand="lg"
             style={{ backgroundColor: "white !important" }}
           >
-            <div className="container-fluid nav-home">
-              <a className="navbar-brand" href="#">
-                <img
-                  src="/EquaSystems.png"
-                  alt=""
-                  width="130rem"
-                  height="80rem"
-                />
-              </a>
-              <button
-                className="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span className="navbar-toggler-icon"></span>
-              </button>
-
-              <div
-                className="collapse navbar-collapse"
-                id="navbarSupportedContent"
-              >
-                <ul
-                  className="navbar-nav "
-                  id="navbarNav"
-                  style={{ fontSize: 0.95 + "rem", fontWeight: "bolder" }}
-                >
-                  <Nav.Link className="itemNavbar" href="#home">Home</Nav.Link>
-
-                  <NavDropdown title="Company Information" id="basic-nav-dropdown" className="itemNavbar">
+            <Container fluid style={{ backgroundColor: "white !important" }}>
+              <Row>
+              <Navbar.Brand>
+                <a className="navbar-brand" href="#">
+                  <img
+                    src="/EquaSystems.png"
+                    alt=""
+                    width="130rem"
+                    height="80rem"
+                  />
+                </a>
+              </Navbar.Brand>
+              </Row>
+              <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+              <Navbar.Collapse id="basic-navbar-nav " style={{ justifyContent: "flex-end"}}>
+                <Nav className="me-auto items-nav" style={{marginRight: 0+"px !important" }}>
+                  <Nav.Link className="itemNavbar" href="#home">
+                    Inicio
+                  </Nav.Link>
+                  <Nav.Link className="itemNavbar" href="#home">
+                    Soluciones
+                  </Nav.Link>
+                  <Nav.Link className="itemNavbar" href="#home">
+                    Clientes
+                  </Nav.Link>
+                  <NavDropdown
+                    title="Acerca de Nosotros"
+                    id="basic-nav-dropdown"
+                    className="itemNavbar"
+                  >
                     <div className="items">
-                    <NavDropdown.Item href="#action/3.1">
-                    Business Partners
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">
-                    Employee Bios
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">
-                    Contact Us
-                    </NavDropdown.Item>
+                      <NavDropdown.Item href="#action/3.1">
+                        Quienes somos
+                      </NavDropdown.Item>
+                      <NavDropdown.Item href="#action/3.2">
+                        Socios
+                      </NavDropdown.Item>
+                      <NavDropdown.Item href="#action/3.3">
+                        Nuestro personal
+                      </NavDropdown.Item>
+                      <NavDropdown.Item href="#action/3.3">
+                        Contactanos
+                      </NavDropdown.Item>
                     </div>
                   </NavDropdown>
-                  
-
-                  <NavDropdown title="System Information" id="basic-nav-dropdown" className="itemNavbar">
-                    <div className="items">
-
-                    <NavDropdown.Item href="#action/3.1">
-                    Feature List
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">
-                    Underwriting Features
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">
-                    Insurance Knowledgebase
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">
-                    System information
-                    </NavDropdown.Item>
-                    </div>
-                    
-                  </NavDropdown>
-                  
-                  <NavDropdown title="Press Releases" id="basic-nav-dropdown" className="itemNavbar">
-                    <div className="items">
-                    <NavDropdown.Item href="#action/3.1">
-                    Archives
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">
-                    Recent News
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">
-                    Social Media
-                    </NavDropdown.Item>
-                    </div>
-                    
-                  </NavDropdown>  
-
-                  <NavDropdown title="Insurance Software Providers" id="basic-nav-dropdown" className="itemNavbar">
-                    <div className="items">
-                    <NavDropdown.Item href="#action/3.1">
-                    Competitors
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">
-                    Agency Systems
-                    </NavDropdown.Item>
-                    </div>
-                  </NavDropdown>  
-
-                  
-                </ul>
-              </div>
-            </div>
-          </nav>
+                </Nav>
+              </Navbar.Collapse>
+            </Container>
+          </Navbar>
         </div>
       </section>
     </>
