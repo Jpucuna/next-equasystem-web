@@ -56,7 +56,7 @@ const NavBar = () => {
             <Container fluid style={{ backgroundColor: "white !important" }}>
               <Row>
               <Navbar.Brand>
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href="/">
                   <img
                     src="/EquaSystems.png"
                     alt=""
@@ -69,13 +69,13 @@ const NavBar = () => {
               <Navbar.Toggle aria-controls="basic-navbar-nav"/>
               <Navbar.Collapse id="basic-navbar-nav " style={{ justifyContent: "flex-end"}}>
                 <Nav className="me-auto items-nav" style={{marginRight: 0+"px !important" }}>
-                  <Nav.Link className="itemNavbar" href="#home">
+                  <Nav.Link className="itemNavbar" href="/">
                     Inicio
                   </Nav.Link>
-                  <Nav.Link className="itemNavbar" href="#home">
-                    Soluciones
+                  <Nav.Link className="itemNavbar" href="/servicios">
+                    Servicios
                   </Nav.Link>
-                  <Nav.Link className="itemNavbar" href="#home">
+                  <Nav.Link className="itemNavbar" href="/clientes">
                     Clientes
                   </Nav.Link>
                   <NavDropdown
@@ -84,16 +84,16 @@ const NavBar = () => {
                     className="itemNavbar"
                   >
                     <div className="items">
-                      <NavDropdown.Item href="#action/3.1">
+                      <NavDropdown.Item href="/nosotros/quienesSomos">
                         Quienes somos
                       </NavDropdown.Item>
-                      <NavDropdown.Item href="#action/3.2">
+                      <NavDropdown.Item href="/nosotros/socios">
                         Socios
                       </NavDropdown.Item>
-                      <NavDropdown.Item href="#action/3.3">
+                      <NavDropdown.Item href="/nosotros/empleados">
                         Nuestro personal
                       </NavDropdown.Item>
-                      <NavDropdown.Item href="#action/3.3">
+                      <NavDropdown.Item href="/nosotros/contactanos">
                         Contactanos
                       </NavDropdown.Item>
                     </div>
