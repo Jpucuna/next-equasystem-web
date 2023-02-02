@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { Row } from "react-bootstrap";
+import { Button, Row } from "react-bootstrap";
 
 const NavBar = () => {
   return (
@@ -27,13 +27,14 @@ const NavBar = () => {
             " / " +
             10 +
             "%)",
+            backgroundColor: "white",
           justifyContent: "center"
         }}
       >
         <div className="container-nav">
           <div className="equa-information">
             <div className="phone">
-              <i className="material-icons" style={{ marginRight: 5 + "px" }}>
+              <i className="material-icons" style={{ marginRight: 5 + "px"}}>
                 call
               </i>
               <a href="https://api.whatsapp.com/send?phone=593986206847">
@@ -41,7 +42,7 @@ const NavBar = () => {
               </a>
             </div>
             <div className="email" style={{ marginLeft: 10 + "px" }}>
-              <i className="material-icons" style={{ marginRight: 5 + "px" }}>
+              <i className="material-icons" style={{ marginRight: 5 + "px"}}>
                 mail
               </i>
               <a href="mailto:info@equasystems.com">info@equasystems.com</a>
@@ -59,7 +60,7 @@ const NavBar = () => {
                 <a className="navbar-brand" href="/">
                   <img
                     src="/EquaSystems.png"
-                    alt=""
+                    alt="logo Equasystem"
                     width="130rem"
                     height="80rem"
                   />

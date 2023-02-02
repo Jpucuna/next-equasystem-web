@@ -114,7 +114,7 @@ const Footer = () => {
                     className="footer-logo d-block d-sm-block d-md-none"
                     style={{ marginBottom: 5 + "%" }}
                   >
-                    <a href="../../index.html">
+                    <a href="/">
                       <img
                         src="/EquaSystems.jpg"
                         className="img-fluid"
@@ -126,18 +126,18 @@ const Footer = () => {
                     <h5>QUIENES SOMOS</h5>
                     <ul className="list-unstyled">
                       <li>
-                        <a href="/html/index.html">Inicio</a>
+                        <a href="/">Inicio</a>
                       </li>
                       <li>
-                        <a href="../../contact-us.html">Acerca de nosotros</a>
+                        <a href="../nosotros/quienesSomos">Acerca de nosotros</a>
                       </li>
                       <li>
-                        <a href="../../policy-claims-system-features.html">
-                          Empleados
+                        <a href="../nosotros/empleados">
+                          Nuestro personal
                         </a>
                       </li>
                       <li>
-                        <a href="../../qss-press-releases.html">Servicios</a>
+                        <a href="../servicios">Servicios</a>
                       </li>
                       <li>
                         <a href="#">Cobertura a nivel nacional</a>
@@ -190,7 +190,7 @@ const Footer = () => {
                 </div>
                 <div className="col-md-3">
                   <div className="footer-logo d-none d-sm-none d-md-block">
-                    <a href="../../index.html">
+                    <a href="/">
                       <img
                         src="/EquaSystems.jpg"
                         className="img-fluid"

@@ -1,11 +1,12 @@
 
 import Layout from '../components/Layout';
+import SeccionImagen from '../components/sectionImagen';
 
 export default function Home() {
   return (
     <>
     <Layout>
-      <h1>Pagina principal</h1>
+      <SeccionImagen/>
     </Layout>
     </>
   )
