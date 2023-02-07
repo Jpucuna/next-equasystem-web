@@ -1,10 +1,12 @@
+import Container from "react-bootstrap/Container";
+import Card from "react-bootstrap/Card";
+import { Button } from "react-bootstrap";
+
 const SeccionImagen = () => {
-
-
-
-  return <>
-    <section className="slice-image item ">
-      <div className="img-fluid">
+  return (
+    <>
+      <section className="slice-image item ">
+        {/* <div className="img-fluid">
         <div className="cont-welcome">
           <div className="jumbotron cont-image-jumbo" style={{backgroundColor : "transparent"}}>
             <div className="container cont-img col-sm-4 mb-4">
@@ -23,8 +25,21 @@ const SeccionImagen = () => {
               </div>
             </div>
         </div>
-      </div>
-    </section>
-  </>
+      </div> */}
+        <div className="presentacion d-flex ">
+          <div className="logoEQS col-md-7 d-flex justify-content-center align-items-center">
+            <img className="img-fluid" src="/logoEQS.png" alt="logo" width={800} />
+          </div>
+          <div className="textPad col-md-5 d-flex
+          flex-column justify-content-around align-items-center">
+              <h5 className="text-presentacion">
+              Somos una empresa con capital y recursos humanos y tecnológicos ecuatorianos americanos, dedicados a la creación, desarrollo, personalización e implementación de servicios de sistemas de calidad de software.
+              </h5>
+              <Button className="btn-principal" variant="primary"><a href="/nosotros/quienesSomos">Saber mas &gt;&gt;</a></Button>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 };
 export default SeccionImagen;

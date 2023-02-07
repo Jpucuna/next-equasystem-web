@@ -2,7 +2,6 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { Button, Row } from "react-bootstrap";
 
 const NavBar = () => {
   return (
@@ -34,17 +33,15 @@ const NavBar = () => {
         <div className="container-nav">
           <div className="equa-information">
             <div className="phone">
-              <i className="material-icons" style={{ marginRight: 5 + "px"}}>
-                call
-              </i>
+              <img  src="/call.png" style={{ marginRight: 5 + "px"}}
+              />
               <a href="https://api.whatsapp.com/send?phone=593986206847">
                 +593 98620-6847
               </a>
             </div>
             <div className="email" style={{ marginLeft: 10 + "px" }}>
-              <i className="material-icons" style={{ marginRight: 5 + "px"}}>
-                mail
-              </i>
+            <img  src="/email.png" style={{ marginRight: 5 + "px"}}
+              />
               <a href="mailto:info@equasystems.com">info@equasystems.com</a>
             </div>
           </div>
@@ -55,7 +52,7 @@ const NavBar = () => {
             style={{ backgroundColor: "white !important" }}
           >
             <Container fluid style={{ backgroundColor: "white !important" }}>
-              <Row>
+              {/* <Row>
               <Navbar.Brand>
                 <a className="navbar-brand" href="/">
                   <img
@@ -66,19 +63,29 @@ const NavBar = () => {
                   />
                 </a>
               </Navbar.Brand>
-              </Row>
+              </Row> */}
               <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-              <Navbar.Collapse id="basic-navbar-nav " style={{ justifyContent: "flex-end"}}>
-                <Nav className="me-auto items-nav" style={{marginRight: 0+"px !important" }}>
+              <Navbar.Collapse id="basic-navbar-nav " style={{ justifyContent: "center"}}>
+                <Nav className="me-auto items-nav" style={{marginRight: 0+"px !important",  gap: 10+"%",
+                justifyContent: "center" }}>
                   <Nav.Link className="itemNavbar" href="/">
                     Inicio
                   </Nav.Link>
+                  <div className="divisor">
+                       <h5>|</h5>
+                  </div>
                   <Nav.Link className="itemNavbar" href="/servicios">
                     Servicios
                   </Nav.Link>
+                  <div className="divisor">
+                       <h5>|</h5>
+                  </div>
                   <Nav.Link className="itemNavbar" href="/clientes">
                     Clientes
                   </Nav.Link>
+                  <div className="divisor">
+                       <h5>|</h5>
+                  </div>
                   <NavDropdown
                     title="Acerca de Nosotros"
                     id="basic-nav-dropdown"
