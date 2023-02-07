@@ -277,9 +277,9 @@ body{
 }
 
 
-@media screen and (max-device-width : 480px) {
+@media screen and (max-device-width : 698px) {
 	.presentacion{
-		padding-top: 40% !important;
+		padding-top: 30% ;
 		display: none;
 	}
 
@@ -293,6 +293,118 @@ body{
 	}
 }
 
+
+@media screen and (max-device-width : 580px) {
+	.presentacion{
+		padding-top: 40% ;
+		display: none;
+	}
+
+	.item{
+		height: 45vh;
+	}
+
+	.btn-principal{
+		margin-top: 30%;
+		width: 150% !important;
+	}
+}
+
+@media screen and (max-device-width : 500px) {
+	.presentacion{
+		padding-top: 60% ;
+		display: none;
+	}
+
+	.item{
+		height: 45vh;
+	}
+
+	.btn-principal{
+		margin-top: 30%;
+		width: 150% !important;
+	}
+}
+
+@media screen and (max-device-width : 952px) {
+	.presentacion{
+		padding-top: 30% ;
+		display: none;
+	}
+
+	.item{
+		height: 45vh;
+	}
+
+	.btn-principal{
+		margin-top: 10%;
+		width: 150% !important;
+	}
+}
+
+@media screen and (max-device-width : 820px) {
+	.presentacion{
+		padding-top: 20% ;
+		display: none;
+	}
+
+	.item{
+		height: 45vh;
+	}
+
+	.btn-principal{
+		margin-top: 10%;
+		width: 150% !important;
+	}
+}
+
+@media screen and (max-device-width : 740px) {
+	.presentacion{
+		padding-top: 30% ;
+		display: none;
+	}
+
+	.item{
+		height: 45vh;
+	}
+
+	.btn-principal{
+		margin-top: 10%;
+		width: 150% !important;
+	}
+}
+
+@media screen and (max-device-width : 570px) {
+	.presentacion{
+		padding-top: 50% ;
+		display: none;
+	}
+
+	.item{
+		height: 45vh;
+	}
+
+	.btn-principal{
+		margin-top: 10%;
+		width: 150% !important;
+	}
+}
+
+@media screen and (max-device-width : 460px) {
+	.presentacion{
+		padding-top: 59% ;
+		display: none;
+	}
+
+	.item{
+		height: 45vh;
+	}
+
+	.btn-principal{
+		margin-top: 10%;
+		width: 150% !important;
+	}
+}
 
 
 
