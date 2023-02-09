@@ -182,11 +182,7 @@ body{
 		.presentacion h5{
 			display: none;
 		}
-		
-		/* .item{
-			height: 64vh !important;
-		} */
-	
+
 		.btn-principal{
 			margin-top: 10%;
 			width: 100% !important;
@@ -196,7 +192,6 @@ body{
 			padding: 0;
 		}
 	}
-
 
 
 
@@ -407,6 +402,30 @@ body{
 }
 
 
+@media screen and (max-device-width : 375px) {
+	.presentacion{
+		flex-direction: column;
+		justify-content:center;
+		align-items: center;
+	}
+	
+	.item{
+		padding-top: 5% !important;
+	}
+
+	.presentacion h5{
+		display: none;
+	}
+
+	.btn-principal{
+		margin-top: 10%;
+		width: 100% !important;
+	}
+	
+	.textPad{
+		padding: 0;
+	}
+}
 
 
 .text-presentacion{
@@ -444,7 +463,7 @@ body{
     /* padding:20% 0; */
     height: 100vh;
     position: relative;
-     
+
 } 
 
 .btn-principal{
