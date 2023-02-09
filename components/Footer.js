@@ -117,7 +117,7 @@ const Footer = () => {
                     <a href="/">
                       <img
                         src="/EquaSystems.jpg"
-                        className="img-fluid"
+                        className="img-fluid img-footer"
                         alt="Insurance Claims Software Logo"
                       />
                     </a>
@@ -193,7 +193,7 @@ const Footer = () => {
                     <a href="/">
                       <img
                         src="/EquaSystems.jpg"
-                        className="img-fluid"
+                        className="img-fluid img-footer"
                         alt="Insurance Policy Administration Software"
                       />
                     </a>
