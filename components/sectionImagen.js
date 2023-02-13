@@ -27,7 +27,7 @@ const SeccionImagen = () => {
       </div> */}
         <div className="presentacion d-flex ">
           <div className="logoEQS col-md-7 d-flex justify-content-center align-items-center">
-            <img className="img-fluid" src="/logoEQS.png" alt="logo" width={800} />
+            <img className="img-fluid img-logoEQS" src="/logoEQS.png" alt="logo" width={800} />
           </div>
           <div className="textPad col-md-5 d-flex
           flex-column justify-content-around align-items-center">
