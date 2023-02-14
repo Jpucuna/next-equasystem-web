@@ -128,7 +128,7 @@ body{
 
 @media screen and (max-device-width: 820px) {
 	.presentacion{
-		padding-top: 29%;
+		padding-top: 50%;
 		display: none;
 	}
 	
@@ -223,7 +223,7 @@ body{
 	
 		.item{
 			padding-top: 20%;
-			height: 73vh !important;
+			height: 100vh ;
 		}
 	
 		.presentacion h5{
@@ -416,7 +416,7 @@ body{
 	}
 	
 	.item{
-		height: 87vh !important;
+		height: 100vh ;
 	}
 
 	.btn-principal{
@@ -535,7 +535,7 @@ body{
 
 @media screen and (max-device-width : 820px) {
 	.presentacion{
-		padding-top: 29% ;
+		padding-top: 50% ;
 		display: none;
 	}
 
@@ -635,7 +635,7 @@ body{
 	}
 
 	.item{
-		height: 45vh;
+		height: 100vh;
 	}
 
 	.btn-principal{
@@ -644,7 +644,7 @@ body{
 	}
 }
 
-@media screen and (max-device-width : 820px) {
+/* @media screen and (max-device-width : 820px) {
 	.presentacion{
 		padding-top: 25% ;
 		display: none;
@@ -658,7 +658,7 @@ body{
 		margin-top: 10%;
 		width: 100% !important;
 	}
-}
+} */
 
 
 @media screen and (max-device-width : 740px) {
